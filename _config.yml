@@ -33,7 +33,7 @@ words_per_minute         : 200
 comments: # 블로그 댓글 활용
   provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "sangdee-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : #"sangdee-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -103,21 +103,21 @@ analytics: # 블로그 접근 경로 확인 코드
 
 # Site Author / 사이드바 소개 부분
 author:
-  name             : "닉네임"
-  avatar           : "/assets/images/profile.jpg"
-  bio              : "간단한 글귀"
-  location         : "사는 지역"
+  name             : "Sangdee"
+  avatar           : #"/assets/images/profile.jpg"
+  bio              : "back-end"
+  location         : "Seoul"
 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:이메일주소@gmail.com"
+      url: "mailto:tkdwl06@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/유저이름"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/인스타 아이디"
+      url: "https://github.com/sangdee"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      url: "https://www.instagram.com/인스타 아이디"
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -134,7 +134,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/유저이름"
+      url: "https://github.com/sangdee"
     #- label: "Twitter"
     #  icon: "fab fa-fw fa-twitter-square"
       # url:
